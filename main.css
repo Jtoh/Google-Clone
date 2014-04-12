@@ -1,0 +1,97 @@
+body {
+	padding: 15px 35px;
+}
+
+/*Header*/
+
+.header {
+display: block;
+text-align: right;
+}
+.header a {
+	margin-right: 10px;
+	font-size: 12px;
+	font-family: helvetica, sans-serif; 
+}
+.header-text {
+	text-decoration: none;
+	color: #494949;
+}
+.grid {
+	vertical-align: -7px;
+}
+#grid-image {
+	height: 25px;
+	width: 25px;
+}
+.sign-in {
+	color: white;
+	background-color: #005CE6;
+	text-decoration: none;
+	padding: 8px 12px;
+	font-weight: bold;
+}
+
+/*Body*/
+
+.body {
+display: block;
+margin-top: 150px;
+text-align: center;
+}
+.google {
+height: 90px;
+width: 240px;
+}
+.text-box {
+	width: 590px;
+	height: 32px;
+	border: 1px solid #D1D1D1;
+	display: block;
+	margin: 20px auto 0 auto;
+	outline-style: none;
+}
+.text-box:hover {
+	border: 1px solid #939393;
+}
+.text-box:focus {
+	border: 1px solid blue;
+}
+.input {
+	border: none;
+	background: transparent;
+	outline-style: none;
+	box-sizing: border-box;
+	position: relative;
+	margin: 0;
+	padding: 0 8px;
+	width: 100%;
+	height: 100%;
+	/*bottom: 0;*/
+}
+.mic {
+	background: url(img/microphone.png) no-repeat center;
+	position: relative;
+	/*border: 1px solid red;*/
+	background-size: 21px 26px;
+	float: right;
+	height: 35px;
+	width:20px;
+	top: -32px;
+	right: 5px;
+}
+.other {
+display: inline-block;
+margin-top: 15px;
+margin-left: 15px;
+text-decoration: none;
+color: #2F2F2F;
+font-size: 10px;
+font-weight: bold;
+background-color: #EAEAEA;
+padding: 5px 10px;
+border: 1px solid #B3B3B3;
+}
+.other:hover {
+	border: 1px solid #6B6B6B;
+}
